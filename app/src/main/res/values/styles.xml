@@ -1,0 +1,85 @@
+<resources>
+
+    <style name="TitleTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/black_50_percent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DisableView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/black_15_percent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:translationZ">2dp</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/description_text_size</item>
+        <item name="android:textColor">@color/black_35_percent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AvatarPlaceHolderTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sign_up_avatar_placeholder_text_size</item>
+        <item name="android:textColor">@color/black_35_percent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/ripple_avatar_placeholder</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:textSize">@dimen/edit_text_text_size</item>
+        <item name="android:paddingStart">@dimen/margin_medium</item>
+        <item name="android:paddingEnd">@dimen/margin_medium</item>
+        <item name="android:textColor">@color/black_50_percent</item>
+        <item name="android:textColorHint">@color/black_35_percent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="android:background">@drawable/shape_edit_text_background</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/ripple_submit_button</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="InfoTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:textColor">@color/black_50_percent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <!-- Tooltip custom style -->
+    <style name="ToolTipAltStyle" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_backgroundColor">@color/error</item>
+    </style>
+
+</resources>
+

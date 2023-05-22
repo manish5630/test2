@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Tooltip custom style -->
+    <style name="ToolTipAltStyle" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_backgroundColor">@color/error</item>
+    </style>
+
+</resources>
+

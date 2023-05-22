@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ProfileCreation</string>
+
+    <!--  SignUp texts  -->
+    <string name="sign_up_title">Profile Creation</string>
+    <string name="sign_up_description">Use the form below  to submit your portfolio. An email and password are required</string>
+    <string name="sign_up_submit">Submit</string>
+
+    <!--  SignUp placeholders  -->
+    <string name="sign_up_placeholder_avatar">Tap to add avatar</string>
+    <string name="sign_up_placeholder_first_name">First Name</string>
+    <string name="sign_up_placeholder_email_address">Email Address</string>
+    <string name="sign_up_placeholder_password">Password</string>
+    <string name="sign_up_placeholder_website">Website</string>
+
+    <!--  Confirmation texts  -->
+    <string name="confirmation_title">Hello, %s!</string>
+    <string name="confirmation_description">Your super-awesome portfolio has been successfully submitted! The preview below is what the community will see!</string>
+    <string name="confirmation_sign_in">Sign in</string>
+
+    <!--  Errors  -->
+    <string name="error_required">Required</string>
+    <string name="error_email_address">Invalid email address</string>
+    <string name="error_password">Simply password</string>
+    <string name="error_website">Invalid website</string>
+    <string name="error_something_went_wrong">Something went wrong</string>
+    <string name="camera_was_close">Camera was close</string>
+
+</resources>
